@@ -16,7 +16,6 @@ interface Repository {
   }
 }
 
-
 const Dashboard: React.FC = () => {
   const [newRepo, setNewRepo] = useState('');
   const [inputError, setInputError] = useState('');
